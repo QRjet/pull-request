@@ -82,6 +82,7 @@ fi
 COMMAND="hub pull-request \
   -b $DESTINATION_BRANCH \
   -h $SOURCE_BRANCH \
+  -p \
   --no-edit \
   $PR_ARG \
   || true"
